@@ -1,10 +1,14 @@
 {
   "name": "lujing_comps",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "private": false,
+  "keyword": "component lujing lujing_comps",
+  "description": "常用小组件",
+  "main": "lib/lujing_comps.umd.min.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name lujing_comps --dest lib packages/index.js"
   },
   "dependencies": {
     "core-js": "^3.4.3",

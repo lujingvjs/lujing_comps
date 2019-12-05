@@ -2,12 +2,12 @@
  * @Author: lujing 
  * @Date: 2019-12-03 19:32:05 
  * @Last Modified by: lujing
- * @Last Modified time: 2019-12-03 19:32:55
+ * @Last Modified time: 2019-12-05 08:55:55
  * @Desc:  整合所有的组件，对外导出，即一个完整的组件库
  */
 
 // 导入颜色选择器组件
-import waterRipper from './water-ripper'
+import waterRipper from './water-ripper/index.js'
 // 存储组件列表
 const components = [
     waterRipper

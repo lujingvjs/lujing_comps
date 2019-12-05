@@ -2,7 +2,7 @@
  * @Author: lujing 
  * @Date: 2019-12-03 19:26:37 
  * @Last Modified by: lujing
- * @Last Modified time: 2019-12-03 19:52:47
+ * @Last Modified time: 2019-12-05 09:05:47
  * @Desc:  导出组件
  */
 
@@ -12,5 +12,6 @@ import waterRipper from './src/index.vue';
 const waterRipperName = function (Vue) {
  Vue.component(waterRipper.name, waterRipper)
 }
+
 // 默认导出组件
 export default waterRipperName

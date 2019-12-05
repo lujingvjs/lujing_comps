@@ -4,6 +4,7 @@ import router from './router'
 import store from './store'
 Vue.config.productionTip = false
 
+
 // 按需引入导入水波纹组件
 import waterRipper from '../packages/water-ripper/index'
 Vue.use(waterRipper)
